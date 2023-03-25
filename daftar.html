@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style4d.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="main.html" target="_self">Beranda</a>
+            <a href="product.html" target="_self">Produk</a>
+            <a href="daftar.html" target="_self">daftar</a>
+            <a href="about.html" target="_self">Tentang</a>
+            <a href="main.html" target="_self">Login</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="daftar">
+            <form action="">
+
+                <label for="nama">nama <input type="text" id="nama" placeholder="Masukkan Nama Anda"></label>
+                <label for="email">email <input type="email" id="email" placeholder="Masukkan Alamat Email Anda"></label>
+                <label for="password">password <input type="number" id="password" placeholder="Masukkan password Anda"></label>
+
+                <label for="posisi">Posisi Yang Anda Inginkan
+                    <select>
+                        <option value="">Pilih Posisi</option>
+                        <option value="Kasir">Kasir</option>
+                        <option value="Koki">Koki</option>
+                        <option value="Junitor">Junitor</option>
+                        <option value="Kepala Dapur">Kepala Dapur</option>
+                        <option value="Kepala Logistik">Kepala Logistik</option>
+                    </select>
+                </label>
+
+                <label>apakah kamu akan merekomendasikan web ini ke temanmu?
+                    <label><input type='radio' class="inline" name="at" checked/>tentu saja!</label>
+                    <label><input type='radio' class="inline" name="at" />mungkin</label>
+                    <label><input type='radio' class="inline" name="at" />tidak yakin
+                    </label>
+                </label>
+
+                <label>keahlian apa yang kamu miliki <small>(centang semua yang benar)</small> </label>
+                <label><input type='checkbox' class='inline'  />public speaking </label>
+                <label><input type='checkbox' class='inline'  />kerja dalam tekanan </label>
+                <label><input type='checkbox' class='inline'  />memiliki jiwa pemimpin </label>
+                <label><input type='checkbox' class='inline'  />mampu menahan emosi </label>
+                <label><input type='checkbox' class='inline'  />ramah </label>
+                <label><input type='checkbox' class='inline'  />menyukai hal-hal baru </label>
+
+                <label>Ada Yang Mau Disampaikan?
+                    <textarea rows='5' cols='50' placeholder='Ketik Disini...'></textarea>
+                </label>
+
+                <input type='submit' id="daftarin"/>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>@2023</p>
+        <p>By Khalid</p>
+    </footer>
+    <script src="simpan.js"></script>
+</body>
+</html>

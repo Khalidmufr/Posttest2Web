@@ -1,0 +1,107 @@
+:root {
+    --black             : #1A120B ;
+    --darkbrown         : #3C2A21 ;
+    --lightbrown        : #D5CEA3 ;
+    --white             : #E5E5CB ;
+    --border            : 0.1rem solid var(--white) ;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: 0.3s linear;
+}
+
+body {
+    background: var(--black);
+}
+
+header {
+    background: var(--darkbrown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 8%;
+    border-bottom: var(--border);
+}
+
+
+header nav a {
+    margin: 0 1rem;
+    color: var(--lightbrown);
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: var(--black);
+    border-bottom: .1rem solid var(--lightbrown);
+    padding-bottom: .5rem;
+}
+
+.isi {
+    width: 60vw;
+    height: 81.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.isi a {
+    color: var(--darkbrown);
+    background-color: var(--white);
+    padding: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.isi a:hover {
+    color: var(--white);
+    background-color: var(--darkbrown);
+}
+
+.content-evhal {
+    height: 81.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-evhal  p{
+    color: var(--white);
+    font-size: 48px;
+
+}
+
+footer {
+    background: var(--darkbrown);
+    text-align: center;
+    border-top: var(--border);
+    padding: 5px;
+}
+
+footer p {
+    margin: 0 1rem;
+    color: var(--lightbrown);
+    font-size: 14px;
+    padding: 3px;
+
+}
+
+.isiku {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 81.5vh;
+}
+
+.isiku p {
+    color: white;
+}

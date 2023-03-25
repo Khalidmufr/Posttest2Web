@@ -1,0 +1,111 @@
+:root {
+    --black             : #1A120B ;
+    --darkbrown         : #3C2A21 ;
+    --lightbrown        : #D5CEA3 ;
+    --white             : #E5E5CB ;
+    --border            : 0.1rem solid var(--white) ;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: 0.3s linear;
+}
+
+body {
+    background: var(--black);
+}
+
+header {
+    background: var(--darkbrown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 8%;
+    border-bottom: var(--border);
+}
+
+
+header nav a {
+    margin: 0 1rem;
+    color: var(--lightbrown);
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: var(--black);
+    border-bottom: .1rem solid var(--lightbrown);
+    padding-bottom: .5rem;
+}
+
+footer {
+    background: var(--darkbrown);
+    text-align: center;
+    border-top: var(--border);
+    padding: 5px;
+}
+
+form {
+    color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(59, 55, 28);
+    width: 60vw;
+    margin: 20px auto;
+    padding: 15px 15px 25px 15px;
+}
+
+label {
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    font-size: .8em;
+    margin: 0.1em 0 1em 0;
+    min-height: 2em;
+}
+
+input,
+select {
+  border-radius: 5px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    min-height: unset;
+    vertical-align: middle;
+}
+
+textarea {
+    min-height: 6.33em;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: var(--darkbrown);
+    border-color: var(--lightbrown);
+    color: var(--white);
+    font-size: 1.33rem;
+    min-height: 2.5em;
+}
+  
+  input[type="submit"]:hover {
+    outline: none !important;
+    border: 2px solid var(--black);
+    box-shadow: 0 0 10px var(--lightbrown);
+    cursor: pointer;
+}
+
+
+footer p {
+    margin: 0 1rem;
+    color: var(--lightbrown);
+    font-size: 14px;
+    padding: 3px;
+
+}
